@@ -1,0 +1,4 @@
+Model: ResNet18
+Input Size: 224x224
+Classes: Benign, Malignant
+Accuracy: 69%

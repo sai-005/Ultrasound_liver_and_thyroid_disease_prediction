@@ -1,0 +1,111 @@
+{
+  "thyroid": {
+    "normal": {
+      "title": "Normal Thyroid",
+      "description": "A normal thyroid gland shows homogeneous echotexture with smooth margins and normal vascularity on ultrasound.",
+      "ultrasound_features": [
+        "Uniform echogenicity",
+        "Smooth and regular borders",
+        "Normal size of lobes",
+        "No focal nodules"
+      ],
+      "clinical_notes": [
+        "Normal thyroid function",
+        "No treatment required"
+      ],
+      "disclaimer": "This information is for educational purposes only."
+    },
+
+    "benign": {
+      "title": "Benign Thyroid Nodule",
+      "description": "Benign thyroid nodules are non-cancerous growths commonly found in the thyroid gland. They are usually slow-growing and often asymptomatic.",
+      "ultrasound_features": [
+        "Well-defined smooth margins",
+        "Isoechoic or hyperechoic texture",
+        "Peripheral vascularity",
+        "Presence of cystic components"
+      ],
+      "possible_causes": [
+        "Iodine deficiency",
+        "Hormonal imbalance",
+        "Colloid nodules"
+      ],
+      "general_advice": [
+        "Regular ultrasound follow-up",
+        "Clinical correlation recommended"
+      ],
+      "disclaimer": "AI-assisted result. Not a medical diagnosis."
+    },
+
+    "malignant": {
+      "title": "Malignant Thyroid Nodule",
+      "description": "Malignant thyroid nodules are cancerous growths that may show aggressive features on ultrasound imaging.",
+      "ultrasound_features": [
+        "Irregular or ill-defined margins",
+        "Hypoechoic appearance",
+        "Microcalcifications",
+        "Increased internal vascularity",
+        "Taller-than-wide shape"
+      ],
+      "clinical_significance": [
+        "Requires further diagnostic evaluation",
+        "Fine Needle Aspiration (FNA) may be advised"
+      ],
+      "disclaimer": "This is an AI-based prediction and must be confirmed by a qualified medical professional."
+    }
+  },
+
+  "liver": {
+    "normal": {
+      "title": "Normal Liver",
+      "description": "A normal liver shows homogeneous echotexture and smooth surface with clear visualization of blood vessels.",
+      "ultrasound_features": [
+        "Uniform echogenicity",
+        "Clear portal vein walls",
+        "Normal liver size"
+      ],
+      "clinical_notes": [
+        "Normal liver function",
+        "No abnormal findings"
+      ],
+      "disclaimer": "Educational information only."
+    },
+
+    "fatty_liver": {
+      "title": "Fatty Liver Disease",
+      "description": "Fatty liver disease occurs when excess fat accumulates in liver cells, leading to increased liver echogenicity on ultrasound.",
+      "ultrasound_features": [
+        "Increased echogenicity (bright liver)",
+        "Blurring of vascular margins",
+        "Poor visualization of diaphragm"
+      ],
+      "possible_causes": [
+        "Obesity",
+        "Diabetes",
+        "Alcohol consumption",
+        "Sedentary lifestyle"
+      ],
+      "general_advice": [
+        "Healthy diet",
+        "Regular physical activity",
+        "Lifestyle modification"
+      ],
+      "disclaimer": "This is an AI-assisted interpretation, not a clinical diagnosis."
+    },
+
+    "cirrhosis": {
+      "title": "Liver Cirrhosis",
+      "description": "Cirrhosis is a chronic liver condition characterized by fibrosis and nodular liver surface.",
+      "ultrasound_features": [
+        "Coarse heterogeneous echotexture",
+        "Irregular liver surface",
+        "Reduced liver size in advanced stages"
+      ],
+      "clinical_significance": [
+        "Indicates chronic liver damage",
+        "Requires specialist evaluation"
+      ],
+      "disclaimer": "Further clinical tests are required for confirmation."
+    }
+  }
+}

@@ -1,0 +1,94 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  width: 1100px;
+  height: 520px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+  display: flex;
+  padding: 30px;
+  gap: 30px;
+}
+
+/* LEFT PANEL */
+.left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #334155;
+}
+
+select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.dropbox {
+  border: 2px dashed #94a3b8;
+  border-radius: 14px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #475569;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.dropbox:hover {
+  background: #f1f5f9;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.predict-btn {
+  margin-top: auto;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.predict-btn:hover {
+  background: #1d4ed8;
+}
+
+/* RIGHT PANEL */
+.right {
+  width: 60%;
+  background: #0f172a;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #94a3b8;
+  font-size: 18px;
+}
+
+.preview {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 12px;
+}
