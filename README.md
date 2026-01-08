@@ -1,0 +1,2 @@
+# Ultrasound_liver_and_thyroid_disease_prediction
+Ultrasound disease prediction using deep learning and FastAPI
