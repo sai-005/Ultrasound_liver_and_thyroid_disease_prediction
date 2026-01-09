@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-uvicorn app.app:app --host 0.0.0.0 --port 10000
+uvicorn app.backend.app:app --host 0.0.0.0 --port 10000
